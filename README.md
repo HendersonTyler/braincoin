@@ -2,7 +2,7 @@
 
 React/Express full-stack app using Brain JS to predict if the price of Bitcoin will go up or down.
 
-[LINK]
+[LINK](https://brain-coin.herokuapp.com/)
 
 I first built the backend using NodeJS/Express. Every 60 seconds a function is called to check the [CoinDesk API](https://api.coindesk.com/v1/bpi/currentprice.json) to fetch the latest Bitcoin price. The price is then added to a JSON file that has the last 49 prices stored locally. [BrainJS](https://github.com/BrainJS/brain.js) is then trained using the RNN method on the last 50 prices. The latest 20 prices are then passed for an estimate of the next Bitcoin price. 
 
