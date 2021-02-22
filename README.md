@@ -1,6 +1,6 @@
 # braincoin
 
-React/Express full-stack app using Brain JS to predict if the price of Bitcoin will go up or down.
+React/Express full-stack app using AI to predict if the price of Bitcoin will go up or down.
 
 [LINK](https://brain-coin.herokuapp.com/)
 
